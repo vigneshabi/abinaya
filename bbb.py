@@ -1,13 +1,13 @@
-h1=input()
-h1=int(h1)
+h11=input()
+h11=int(h11)
 v1=[]
-for j in range(0,h1):  
-    n1=input()
-    v1.append(n1)
-f1=[]
-for j in zip(*v1):
+for j in range(0,h11):  
+    n11=input()
+    v11.append(n11)
+f11=[]
+for j in zip(*v11):
     if j.count(j[0])==len(j): 
-        f1.append(j[0])
+        f11.append(j[0])
     else:
         break
-print(''.join(f1))
+print(''.join(f11))
