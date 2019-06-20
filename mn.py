@@ -1,0 +1,12 @@
+num23=int(input())
+num221=num23
+num234=0
+while(num>0):
+	var=num%10
+	num=num//10
+	var1=var**3
+	num234=num234+var1
+if(num221==num234):
+	print("yes")
+else:
+	print("no")
